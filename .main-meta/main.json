@@ -4,12 +4,12 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128da48-cnano-led-dimming-pwm-mcc",
-        "version": "1.0.0",
-        "displayName": "AVR128DA48 CNANO LED DIMMING PWM MCC",
+        "version": "1.0.1",
+        "displayName": "LED dimming using PWM",
         "projectName": "avr128da48-cnano-led-dimming-pwm-mcc",
-        "shortDescription": "Code example for creating a dimming effect on an LED using MCC",
+        "shortDescription": "This repository provides a MPLAB X project with a bare MCC generated code example for an LED dimming implemented using a PWM signal. The example demonstrates the basic functionality of Timer/Counter Type A (TCA) used to generate a PWM signal",
         "ide": {
-            "name": "MPLABX",
+            "name": "MPLAB X",
             "semverRange": ">=5.40.0"
         },
         "compiler": [
@@ -38,18 +38,17 @@
         },
         "author": "Microchip",
         "subcategories": [
-            "MCC",
             [
-               "Peripherals", "TCA"
+               "Peripherals",
+			   "TCA"
             ]         			
         ],
         "peripherals": [
             "TCA"
         ],
         "keywords": [
-            "MCC",
-            "TCA",
-			"PWM"
+			"Getting Started",
+            "LED dimming"
         ],
 		"additionalData": {
 			"longDescription": {

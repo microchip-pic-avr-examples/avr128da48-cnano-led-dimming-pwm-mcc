@@ -1,7 +1,6 @@
-<div id="readme" class="Box-body readme blob js-code-block-container">
- <article class="markdown-body entry-content p-3 p-md-6" itemprop="This needs to locked down and 'never' changed"><p><a href="https://www.microchip.com" rel="nofollow"><img src="images/Microchip.png" alt="MCHP" width="300";"></a></p>
+[![MCHP](images/microchip.png)](https://www.microchip.com)
 
- # AVR128DA48 LED Dimming Using PWM Code Example
+# AVR128DA48 LED Dimming Using PWM Code Example
 
 This repository provides a MPLAB X project with a bare MCC generated code example for an LED dimming implemented using a PWM signal.
 The example demonstrates the basic functionality of Timer/Counter Type A (TCA) used to generate a PWM signal. The output waveform is connected to the on-board LED. The PWM duty cycle value is incremented continuously until it reaches the maximum value and then is reloaded to 0. This produces the dimming effect of the LED.
